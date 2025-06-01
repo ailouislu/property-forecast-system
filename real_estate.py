@@ -155,8 +155,8 @@ def scrape_properties(main_url, max_pages):
         browser.close()
 
 def main():
-    main_url = "https://www.realestate.co.nz/residential/sale/wellington"
-    max_pages = 118
+    main_url = "https://www.realestate.co.nz/residential/sale/auckland"
+    max_pages = 500
     scrape_properties(main_url, max_pages)
 
 if __name__ == "__main__":
