@@ -75,5 +75,5 @@ def scrape_properties(main_url, max_pages, city, suburb):
 
 # Run the scraper
 if __name__ == "__main__":
-    city = "Kapiti Coast District"
-    fetch_suburbs("https://www.propertyvalue.co.nz/wellington/kapiti-coast-district/43", city)
+    city = "Auckland - City"
+    fetch_suburbs("https://www.propertyvalue.co.nz/auckland/auckland/7", city)
